@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adding elements in html(HTML dom)</title>
+</head>
+<style>
+    html{font-family:sans-serif; color: #333;}
+    body{max-width: 500px; margin: 0 auto; padding: 0  15;}
+    div,article{padding: 10px; margin: 5px; border: 1px solid #dedede;}
+</style>
+<body>
+<h1>Accessing elements in html</h1>
+<h2>
+    ID(#demo)
+</h2>
+<div id="demo">Accessing me by ID </div>
+<h2>Class</h2>
+<h2 class="demo">Accessing by my class (1)</h2>
+<div>Accessing by class (2)</div>
+<h2>Tag (article)</h2>
+<article>Accessing by tag(2)</article>
+<article>Accessing by tag(1)</article>
+<h2>Query selector</h2>
+<div id="demo-query">Accessing by Query</div>
+<h2>Query selector ALL</h2>
+<div class="demo-query-all">Accessing by Query all(1)</div>
+<div class="demo-query-all">Accessing by Query all(1)</div>
+<script src="access.js"></script>
+</body>
+</html>
